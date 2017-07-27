@@ -1,1 +1,49 @@
 /*Tim Baiton's CodeAcademy Broadway project - stylesheet*/
+
+/*css that applys to the whole page*/
+body {
+  font-family:Helvetica;
+}
+h1,h2,h3 {
+  font-weight:bold;
+}
+
+/* css rules/classes that apply to areas of the site using the-flatiron-building.png image */
+.flatiron-section {
+  background-image: url('../images/the-flatiron-building.png');
+  text-align: center;
+  color:white;
+}
+.flatiron-section h1 {
+  font-size:70px;
+}
+.flatiron-section h3 {
+  font-size:23px;
+}
+
+/* css class for navigation in the header and the nav in the footer */
+.headfoot-nav {
+  font-size:18px;
+  color:white;
+}
+
+/*css rules for the main body of the page (the process section and the portfolio/contact/team section)*/
+.main {
+  text-align:center;
+  }
+.main h2 {
+  font-size:32px;
+}
+.main h3 {
+  font-size:23px;
+}
+.main p {
+  font-size:14px;
+}
+
+/*css rules for footer*/
+.footer {
+  background-color: dimgray;
+  font-size:11px;
+  color:white;
+}
